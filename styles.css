@@ -1,0 +1,21 @@
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+* {
+    font-family: monospace !important;
+}
+header {
+    font-size: 18px;
+    padding:none;
+}
+a {
+    text-decoration:none; 
+}
+.nav-line{
+    display:inline-block;
+}
+div.nav-line{
+    border:8px solid indigo;
+    padding:1rem;
+}
