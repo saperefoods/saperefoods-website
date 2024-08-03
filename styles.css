@@ -11,7 +11,7 @@ li {
     outline: 0;
 }
 html{
-    background-image: url("images/sapereGrapes.jpg");
+    background-image: url("sapereGrapes.jpg");
     background-repeat: no-repeat;
     display:grid;
     font-family: Times, sans-serif !important;
