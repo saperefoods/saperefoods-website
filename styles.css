@@ -8,7 +8,7 @@ li {
     padding: 0;
 }
 html{
-    background-image: url("images/sapereGrapes.jpg");
+    background-image: url("sapereGrapes.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     display:grid;
