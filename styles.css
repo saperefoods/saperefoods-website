@@ -107,6 +107,8 @@ body{
     text-align: center;
     margin-top: 56px;
     font-size: 13vh;
+    padding-left: 0;
+    padding-right: 0;
     /* -webkit-text-stroke: 1px #653C87; */
     color: #653C87;  
     border: 2px solid #653C87;
@@ -210,7 +212,7 @@ figcaption{
     display:table-caption;
     caption-side:bottom;
 }
-@media (max-width: 340px) {
+@media (max-width: 400px) {
     
     html{
         font-family: Times, sans-serif !important;
