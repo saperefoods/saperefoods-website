@@ -3,48 +3,37 @@ li {
     display: inline-block;
 }
 *{
-    padding:0px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 0;
-    outline: 0;
 }
 html{
-    background-image: url("sapereGrapes.jpg");
+    background-image: url("images/sapereGrapes.jpg");
     background-repeat: no-repeat;
+    background-size:cover;
     display:grid;
     font-family: Times, sans-serif !important;
     width:100%;
     height:100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    
+    background-color: rgba(255, 255, 255, 0.5);  
 }
 body{
     min-height:100vh;
-    padding-top:10px;
+    padding-top: 17px;
     display:grid;
     font-family: Times, sans-serif !important;
-    width:100%;
-    height:100%;
-    padding-left: 5px;
+    padding-left: 15px;
     padding-right: 5px;
-}
-.main-header{
-    text-decoration: none;
-
 }
 .nav-bar{
     position: fixed;
-    text-decoration: none;
 }
 .nav-line{
-    padding-top: 13px;
+    padding-top: 8px;
 }
 .nav-item{
     border: 2px solid #653C87;
-    color: #653C87;
-    padding: 1rem;
+    padding: .5rem;
     background: rgba(255, 255, 255, 0.5);
     /* -webkit-text-stroke: 1px #281BFF; */
     color:white;
@@ -95,8 +84,8 @@ body{
 /* OUR STORY */
 
 .ourstory-div{
-    padding-left:142px;
-    padding-right:80px;
+    padding-left:15%;
+    padding-right: 15%;
 }
 
 /* JOIN OUR MOVEMENT */
@@ -106,22 +95,20 @@ body{
     padding-right:80px;
 }
 
-@media only screen and (max-width:580px){
+/* @media only screen and (max-width:580px){
     .nav-line{
         display:none;
     }
-}
+} */
 .home-welcome{
     background: rgba(255, 255, 255, 0.5);
     height: 100px;
-    display:grid;
     justify-content:center;
     text-align: center;
-    margin-top:56px;
-    font-size:13vh;
+    margin-top: 56px;
+    font-size: 13vh;
     /* -webkit-text-stroke: 1px #653C87; */
     color: #653C87;  
-    width: 100%;
     border: 2px solid #653C87;
     /* MAKE THE SAPERE FOODS BANNER GO ACROSS ENTIRE SCREEN LIKE STRIPE */
 }
@@ -132,12 +119,11 @@ body{
     display: inline-block;
     text-align: center;
     max-width:100%;
-    margin-left: 0;
-    margin-right:0;
+    min-height:100vh;
+    margin: 0 auto;
+    align-items: center;
 }
 .home-main-statement{
-    display: inline-block;
-    text-align: center;
     font-family: cambria;
     padding-left: 200px;
     padding-right:  200px;
@@ -167,10 +153,9 @@ body{
 .home-body{
     background: rgba(255, 255, 255, 0.7);
     margin:0;
-    min-width: 100%;
     display:table;
     height:100%;
-    width:100%;
+    min-height: 100vh;
 }
 .page1-body-div{
     display: inline-block;
@@ -225,7 +210,117 @@ figcaption{
     display:table-caption;
     caption-side:bottom;
 }
-figcaption{
-    display:table-caption;
-    caption-side:bottom;
+@media (max-width: 340px) {
+    
+    html{
+        font-family: Times, sans-serif !important;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 0;
+        overflow-x:visible;
+        height: 100vh;
+        display: inline-block;
+        align-content:flex-start;
+        
+    }
+    body{
+        height: 100vh;
+        max-width: 100%; /* Ensure the container does not overflow */
+        box-sizing: border-box;
+        word-wrap: break-word;
+        font-size: 2vh;
+    }
+    .opening-story{
+        font-size: medium;
+        text-align: left;
+    }
+    blockquote{
+        font-size: large;
+    }
+    p{
+        font-size: medium;
+        text-align: left;
+    }
+    .body-founder-message{
+        font-size: small;
+    }
+    img{
+        width:100%;
+    }
+    .home-main-statement{
+        font-family: cambria;
+        padding-left: 2%;
+        padding-right: 2%;
+        color:black;
+    }
+    .home-welcome{
+        height: 50px;
+        margin-top:56px;
+        font-size: 38px;
+    }
+    .home-body{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .ourstory-div{
+        padding-left: 2%;
+        padding-right: 2%;
+
+    }
+    .home-container{
+        font-size: 1.5vh;
+        min-height:50vh;
+        padding: 0;
+    }
+    .nav-line{
+        padding-top: 13px;
+    }
+    .nav-item{
+        border: 2px solid #653C87;
+        font-size: 2vh;
+        padding: .06rem;
+        padding-left: 3px;
+        padding-right: 3px;
+        background: rgba(255, 255, 255, 0.5);
+        /* -webkit-text-stroke: 1px #281BFF; */
+        color:white;
+        width: 1;
+        height: 50px;
+        text-decoration: none;
+    }
+    .home-border-padding{
+        padding: 0px;
+        width: 100%;
+        display:inline-block;
+    }
+    .upf-se-div{
+        border: 2px solid black;
+        outline: 4px solid rgba(255, 255, 255, 0.5);
+        outline-offset: -px;
+        width: 200px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+    }
+    .se-item{
+        font-family: Monaco, monospace;
+        font-weight: bold;
+        font-size:12px;
+    }
+    .h2-upf-lst, .h2-upf-se{
+        text-align: left;
+        font-weight: bold;
+        
+    }
+
+    .joinourmovement-div{
+        padding-left:2%;
+        padding-right:4%;
+    }
+    .ourmovementimg{
+        max-width: 100%;
+        height:inherit;
+    }
+    
 }
