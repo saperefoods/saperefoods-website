@@ -1,0 +1,328 @@
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url("sapereGrapes.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:grid;
+    font-family: Times, sans-serif !important;
+    width:100%;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.5);  
+}
+body{
+    min-height:100vh;
+    padding-top: 17px;
+    display:grid;
+    font-family: Times, sans-serif !important;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.nav-bar{
+    position: fixed;
+}
+.nav-line{
+    padding-top: 8px;
+}
+.nav-item{
+    border: 2px solid #653C87;
+    padding: .5rem;
+    background: rgba(255, 255, 255, 0.5);
+    /* -webkit-text-stroke: 1px #281BFF; */
+    color:white;
+    width: 1;
+    height: 50px;
+    text-decoration: none;
+}
+
+/* socialmediaicons */
+
+.media-icon{
+    height: 100%;
+    width: 40px;
+}
+.button{
+    padding-top:10px;
+    padding-left:1px;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50px;
+    line-height: 60px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.wrapper .button .icon{
+    font-size: 20px;
+}
+.wrapper .button:hover{
+    width: 100px;
+    transition: 0.7s;
+}
+.wrapper .button:nth-child(1):hover{
+    content:"@saperefoods";
+    color: #d62976;
+    transition: 0.7s;
+}
+.wrapper .button:nth-child(2):hover .media-icon{
+    color: #1DA1F2;
+    transition: 0.7s;
+}
+.wrapper .button:nth-child(3):hover .media-icon{
+    text-decoration-thickness: 10px;
+    transition: 0.7s;
+}
+
+/* OUR STORY */
+
+.ourstory-div{
+    padding-left:15%;
+    padding-right: 15%;
+}
+
+/* JOIN OUR MOVEMENT */
+
+.joinourmovement-div{
+    padding-left:142px;
+    padding-right:80px;
+}
+
+/* @media only screen and (max-width:580px){
+    .nav-line{
+        display:none;
+    }
+} */
+.home-welcome{
+    background: rgba(255, 255, 255, 0.5);
+    height: 100px;
+    justify-content:center;
+    text-align: center;
+    margin-top: 56px;
+    font-size: 13vh;
+    padding-left: 0;
+    padding-right: 0;
+    /* -webkit-text-stroke: 1px #653C87; */
+    color: #653C87;  
+    border: 2px solid #653C87;
+    /* MAKE THE SAPERE FOODS BANNER GO ACROSS ENTIRE SCREEN LIKE STRIPE */
+}
+.home-border-padding{
+    display: inline-block;
+}
+.home-container{
+    display: inline-block;
+    text-align: center;
+    max-width:100%;
+    min-height:100vh;
+    margin: 0 auto;
+    align-items: center;
+}
+.home-main-statement{
+    font-family: cambria;
+    padding-left: 200px;
+    padding-right:  200px;
+    /* mix-blend-mode:multiply; */
+    color:black;
+}
+.upf-se-div{
+    margin:10%;
+    border: 2px solid black;
+    outline: 4px solid white;
+    outline-offset: -8px;
+    width: 400px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.se-item{
+    font-family: Monaco, monospace;
+    font-weight: bold;
+    font-size:28px;
+}
+.h2-upf-lst, .h2-upf-se{
+    text-align: left;
+    font-weight: bold;
+}
+.home-body{
+    background: rgba(255, 255, 255, 0.7);
+    margin:0;
+    display:table;
+    height:100%;
+    min-height: 100vh;
+}
+.page1-body-div{
+    display: inline-block;
+    text-align: center;
+    padding-left:20%;
+    padding-right:20%;
+    padding-bottom: 80px;
+}
+footer{
+    background-color:#A9A9A9;
+    color: white;
+    padding:1rem;
+    bottom:0;
+    max-width:inherit;
+    width:inherit;
+    text-align:center;
+}
+h1{
+    padding-top: 80px;
+}
+.bottom-div{
+    padding-bottom: 10px;
+}
+header {
+    font-size: 18px;
+    padding:none;
+    position:fixed;
+    object-fit:cover;
+}
+a {
+    text-decoration:none; 
+}
+h3.founder-message{
+    color: #000080;
+}
+h3.founder-mes-div{
+    border:4px solid black;
+    padding: 2rem;
+}
+.kangaroo-pic{
+    height:130px;
+}
+figure{
+    text-align:center;
+    font-size: small;
+    font: bold;
+    border: 1px gray solid;
+    width:126px;
+    display:table;
+}
+figcaption{
+    display:table-caption;
+    caption-side:bottom;
+}
+@media (max-width: 400px) {
+    
+    html{
+        font-family: Times, sans-serif !important;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 0;
+        overflow-x:visible;
+        height: 100vh;
+        display: inline-block;
+        align-content:flex-start;
+        
+    }
+    body{
+        height: 100vh;
+        max-width: 100%; /* Ensure the container does not overflow */
+        box-sizing: border-box;
+        word-wrap: break-word;
+        font-size: 2vh;
+    }
+    .opening-story{
+        font-size: medium;
+        text-align: left;
+    }
+    blockquote{
+        font-size: large;
+    }
+    p{
+        font-size: medium;
+        text-align: left;
+    }
+    .body-founder-message{
+        font-size: small;
+    }
+    img{
+        width:100%;
+    }
+    .home-main-statement{
+        font-family: cambria;
+        padding-left: 2%;
+        padding-right: 2%;
+        color:black;
+    }
+    .home-welcome{
+        height: 50px;
+        margin-top:56px;
+        font-size: 38px;
+    }
+    .home-body{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .ourstory-div{
+        padding-left: 2%;
+        padding-right: 2%;
+
+    }
+    .home-container{
+        font-size: 1.5vh;
+        min-height:50vh;
+        padding: 0;
+    }
+    .nav-line{
+        padding-top: 13px;
+    }
+    .nav-item{
+        border: 2px solid #653C87;
+        font-size: 2vh;
+        padding: .06rem;
+        padding-left: 3px;
+        padding-right: 3px;
+        background: rgba(255, 255, 255, 0.5);
+        /* -webkit-text-stroke: 1px #281BFF; */
+        color:white;
+        width: 1;
+        height: 50px;
+        text-decoration: none;
+    }
+    .home-border-padding{
+        padding: 0px;
+        width: 100%;
+        display:inline-block;
+    }
+    .upf-se-div{
+        border: 2px solid black;
+        outline: 4px solid rgba(255, 255, 255, 0.5);
+        outline-offset: -px;
+        width: 200px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+    }
+    .se-item{
+        font-family: Monaco, monospace;
+        font-weight: bold;
+        font-size:12px;
+    }
+    .h2-upf-lst, .h2-upf-se{
+        text-align: left;
+        font-weight: bold;
+        
+    }
+
+    .joinourmovement-div{
+        padding-left:2%;
+        padding-right:4%;
+    }
+    .ourmovementimg{
+        max-width: 100%;
+        height:inherit;
+    }
+    
+}
